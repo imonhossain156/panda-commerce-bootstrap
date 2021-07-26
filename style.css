@@ -1,0 +1,28 @@
+.col-md-7{
+    padding-left: 80px;
+}
+.col-md-5{
+    padding-right: 30px;
+}
+.col{
+    padding: 20px;
+
+}
+.row-cols-1{
+    margin-left: 12px;
+}
+.card{
+    box-shadow: 2px 4px 8px 3px rgba(0, 0, 0, 0.1), 0 4px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.card-footer{
+    display: flex;
+    flex-direction: column;
+}
+@media only screen and (max-width: 600px) {
+    .col-md-7{
+        padding-left: 20px;
+    }
+    .col-md-5{
+        padding-right: 0px;
+    }
+  }
